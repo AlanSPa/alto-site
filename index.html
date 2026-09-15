@@ -3,14 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="ALTO Produtora — produção audiovisual em Caruaru, Pernambuco.">
+
   <meta name="theme-color" content="#050505">
+
   <title>ALTO — Produtora Audiovisual</title>
+
   <link rel="icon" type="image/png" href="assets/logo-alto.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Ajustes específicos do cabeçalho -->
+  <style>
+    .header {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      align-items: flex-start;
+    }
+
+    .brand {
+      display: block;
+      width: min(430px, 38vw);
+    }
+
+    .brand img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .nav {
+      padding-top: 22px;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        padding-top: 20px;
+        align-items: center;
+      }
+
+      .brand {
+        width: 190px;
+      }
+
+      .nav {
+        display: none;
+      }
+    }
+  </style>
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header class="header">
+
     <a class="brand" href="#inicio" aria-label="ALTO — início">
       <img src="assets/logo-alto.png" alt="ALTO Produtora">
     </a>
@@ -21,133 +68,313 @@
       <a href="#servicos">Serviços</a>
       <a href="#contato">Contato</a>
     </nav>
+
   </header>
 
+
   <main>
+
+    <!-- HERO -->
     <section class="hero section" id="inicio">
+
       <div class="hero-copy reveal">
-        <p class="eyebrow">PRODUTORA AUDIOVISUAL</p>
-        <h1>SEJA<br><span>VISTO.</span></h1>
+
+        <h3></h3><p class="eyebrow">
+          PRODUTORA AUDIOVISUAL
+        </p></h3>
+
+        <h1>
+          SEJA<br>
+          <span>VISTO.</span>
+        </h1>
+
         <p class="hero-text">
           Produção audiovisual para marcas, pessoas e projetos
           que querem ser vistos.
         </p>
-        <a class="button" href="#contato">FALE CONOSCO <span>↗</span></a>
+
+        <a class="button" href="#contato">
+          FALE CONOSCO
+          <span>↗</span>
+        </a>
+
       </div>
+
 
       <div class="hero-mark" aria-hidden="true">
         <span>ALTO</span>
       </div>
+
     </section>
 
+
+    <!-- SERVIÇOS -->
     <section class="services section" id="servicos">
+
       <div class="section-heading reveal">
-        <p class="eyebrow">O QUE FAZEMOS</p>
-        <h2>SERVIÇOS</h2>
+
+        <p class="eyebrow">
+          O QUE FAZEMOS
+        </p>
+
+        <h2>
+          SERVIÇOS
+        </h2>
+
       </div>
+
 
       <div class="service-grid">
-        <article class="service reveal">
-          <div class="service-number">01</div>
-          <h3>PRODUÇÃO<br>AUDIOVISUAL</h3>
-          <p>Comerciais, institucionais, campanhas e projetos especiais.</p>
-        </article>
 
         <article class="service reveal">
-          <div class="service-number">02</div>
-          <h3>CONTEÚDO<br>PARA REDES</h3>
-          <p>Vídeos verticais, roteiros e conteúdo pensado para conectar.</p>
+
+          <div class="service-number">
+            01
+          </div>
+
+          <h3>
+            PRODUÇÃO<br>
+            AUDIOVISUAL
+          </h3>
+
+          <p>
+            Comerciais, institucionais, campanhas
+            e projetos especiais.
+          </p>
+
         </article>
 
-        <article class="service reveal">
-          <div class="service-number">03</div>
-          <h3>EVENTOS</h3>
-          <p>Cobertura audiovisual, registros e aftermovies.</p>
-        </article>
 
         <article class="service reveal">
-          <div class="service-number">04</div>
-          <h3>FOTOGRAFIA</h3>
-          <p>Ensaios, produtos, eventos e conteúdo empresarial.</p>
+
+          <div class="service-number">
+            02
+          </div>
+
+          <h3>
+            CONTEÚDO<br>
+            PARA REDES
+          </h3>
+
+          <p>
+            Vídeos verticais, roteiros e conteúdo
+            pensado para conectar.
+          </p>
+
         </article>
+
+
+        <article class="service reveal">
+
+          <div class="service-number">
+            03
+          </div>
+
+          <h3>
+            EVENTOS
+          </h3>
+
+          <p>
+            Cobertura audiovisual, registros
+            e aftermovies.
+          </p>
+
+        </article>
+
+
+        <article class="service reveal">
+
+          <div class="service-number">
+            04
+          </div>
+
+          <h3>
+            FOTOGRAFIA
+          </h3>
+
+          <p>
+            Ensaios, produtos, eventos
+            e conteúdo empresarial.
+          </p>
+
+        </article>
+
       </div>
+
     </section>
 
+
+    <!-- SOBRE -->
     <section class="about section" id="sobre">
+
       <div class="about-image reveal">
+
         <div class="image-placeholder">
+
           <span>ALTO</span>
-          <small>IMAGEM EM BREVE</small>
+
+          <small>
+            IMAGEM EM BREVE
+          </small>
+
         </div>
+
       </div>
+
 
       <div class="about-copy reveal">
-        <p class="eyebrow">SOBRE A ALTO</p>
-        <h2>MAIS QUE VÍDEOS.<br><span>PERSPECTIVA.</span></h2>
-        <p>
-          A ALTO é uma produtora audiovisual de Caruaru, Pernambuco,
-          criada para transformar ideias em imagens que comunicam,
-          conectam e geram presença.
+
+        <p class="eyebrow">
+          SOBRE A ALTO
         </p>
+
+        <h2>
+          MAIS QUE VÍDEOS.<br>
+          <span>PERSPECTIVA.</span>
+        </h2>
+
         <p>
-          Unimos técnica, sensibilidade e visão para criar conteúdo
-          com propósito — sempre buscando elevar o nível de cada projeto.
+          A ALTO é uma produtora audiovisual de Caruaru,
+          Pernambuco, criada para transformar ideias em
+          imagens que comunicam, conectam e geram presença.
         </p>
+
+        <p>
+          Unimos técnica, sensibilidade e visão para criar
+          conteúdo com propósito — sempre buscando elevar
+          o nível de cada projeto.
+        </p>
+
       </div>
+
     </section>
 
+
+    <!-- PORTFÓLIO -->
     <section class="portfolio section reveal">
+
       <div class="section-heading">
-        <p class="eyebrow">TRABALHOS</p>
-        <h2>EM CONSTRUÇÃO.</h2>
-        <p class="section-note">
-          Novos projetos estão chegando. Este espaço será atualizado
-          conforme a ALTO cresce.
+
+        <p class="eyebrow">
+          TRABALHOS
         </p>
+
+        <h2>
+          EM CONSTRUÇÃO.
+        </h2>
+
+        <p class="section-note">
+          Novos projetos estão chegando.
+          Este espaço será atualizado conforme a ALTO cresce.
+        </p>
+
       </div>
+
     </section>
 
+
+    <!-- CONTATO -->
     <section class="contact section" id="contato">
+
       <div class="contact-copy reveal">
-        <p class="eyebrow">VAMOS CONVERSAR?</p>
-        <h2>CONTATO</h2>
-        <p>Tem um projeto em mente?<br>Fale com a ALTO.</p>
+
+        <p class="eyebrow">
+          VAMOS CONVERSAR?
+        </p>
+
+        <h2>
+          CONTATO
+        </h2>
+
+        <p>
+          Tem um projeto em mente?<br>
+          Fale com a ALTO.
+        </p>
+
       </div>
+
 
       <div class="contact-links reveal">
+
         <a href="/whatsapp" class="contact-link">
-          <span class="contact-icon">↗</span>
+
+          <span class="contact-icon">
+            ↗
+          </span>
+
           <span>
             <strong>WHATSAPP</strong>
             <small>Fale agora</small>
           </span>
+
         </a>
 
-        <a href="https://instagram.com/altoprodutora" target="_blank" rel="noopener" class="contact-link">
-          <span class="contact-icon">◎</span>
+
+        <a
+          href="https://instagram.com/altoprodutora"
+          target="_blank"
+          rel="noopener"
+          class="contact-link"
+        >
+
+          <span class="contact-icon">
+            ◎
+          </span>
+
           <span>
             <strong>INSTAGRAM</strong>
             <small>@altoprodutora</small>
           </span>
+
         </a>
 
-        <a href="mailto:contato@altoprodutora.com.br" class="contact-link">
-          <span class="contact-icon">✉</span>
+
+        <a
+          href="mailto:contato@altoprodutora.com.br"
+          class="contact-link"
+        >
+
+          <span class="contact-icon">
+            ✉
+          </span>
+
           <span>
             <strong>E-MAIL</strong>
-            <small>contato@altoprodutora.com.br</small>
+            <small>
+              contato@altoprodutora.com.br
+            </small>
           </span>
+
         </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer class="footer">
-    <img src="assets/logo-alto.png" alt="ALTO">
-    <p>© 2026 ALTO Produtora. Todos os direitos reservados.</p>
-    <p>Caruaru — PE — Brasil</p>
+
+    <img
+      src="assets/logo-alto.png"
+      alt="ALTO"
+    >
+
+    <p>
+      © 2026 ALTO Produtora.
+      Todos os direitos reservados.
+    </p>
+
+    <p>
+      Caruaru — PE — Brasil
+    </p>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
