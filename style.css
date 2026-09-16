@@ -1348,3 +1348,101 @@ a {
     }
 
 }
+
+/* =========================
+   SOBRE — NOVO LAYOUT
+========================= */
+
+.about {
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 140px 7vw;
+}
+
+
+.about-content {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* TÍTULO */
+
+.about-content h2 {
+    width: 100%;
+    margin: 30px 0 70px;
+
+    font-size: clamp(52px, 7vw, 110px);
+    line-height: 0.92;
+    letter-spacing: -3px;
+}
+
+
+.about-content h2 span {
+    opacity: 0.45;
+}
+
+
+
+/* TEXTOS */
+
+.about-text {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vw;
+
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding-top: 30px;
+}
+
+
+.about-text p {
+    max-width: 520px;
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.8;
+    opacity: 0.65;
+}
+
+
+.about-text p:last-child {
+    justify-self: end;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .about {
+        min-height: auto;
+        padding: 100px 7vw;
+    }
+
+
+    .about-content h2 {
+        font-size: clamp(42px, 12vw, 70px);
+        letter-spacing: -2px;
+        margin-bottom: 50px;
+    }
+
+
+    .about-text {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+
+    .about-text p:last-child {
+        justify-self: start;
+    }
+
+}
